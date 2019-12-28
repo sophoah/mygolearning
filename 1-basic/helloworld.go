@@ -9,7 +9,7 @@ func main() {
 	c := []rune(s)
 	c[0] = 'c'	 
 	s2 := string(c)
-	fmt.Printf("%s\n", s2)
+	fmt.Printf("%s \n", s2)
 
 	J:  for j := 0; j < 5; j++ {
         for i := 0; i < 10; i++ {

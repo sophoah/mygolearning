@@ -4,13 +4,13 @@ import "fmt"
 func averagefuncanswer() {
 	sum := 0.0
 	switch len(xs) {
-	case 0: 1
+	case 0:
 		avg = 0
-	default: 2
+	default:
 		for _, v := range xs {
 			sum += v
 		}
-		avg = sum / float64(len(xs)) 3
+		avg = sum / float64(len(xs))
 	}
 }
 
